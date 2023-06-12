@@ -1,3 +1,7 @@
+"""
+Module to parse sales-related HTML data using BeautifulSoup.
+"""
+
 from bs4 import BeautifulSoup
 from models.number_records import SaleNumberRecord, SoldNumberRecord
 from typing import Optional, List

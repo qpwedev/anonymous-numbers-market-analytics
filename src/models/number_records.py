@@ -9,7 +9,7 @@ class SaleNumberRecord:
         self.time_left = time_left
         self.owner = owner
 
-    def to_tuple(self) -> tuple:
+    def to_tuple(self)-> tuple:
         return (self.link, self.number, self.status, self.price, self.time_left, self.owner)
 
 
