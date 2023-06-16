@@ -14,8 +14,13 @@ from parser.html_parser import (
 from db.database import Database
 from telegram_bot.bot import send_photo
 from text_generation.telegram_post_text import records_to_text
+from utils import async_retry
 
 
+@async_retry(
+    retry_on_exception=lambda e: isinstance(e, (Exception,)),
+    wait_fixed=30,
+)
 async def main():
     db = Database('my_database.db')
     counter = 0
