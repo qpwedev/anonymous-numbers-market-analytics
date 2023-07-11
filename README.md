@@ -1,7 +1,10 @@
 <p align="center">
   <h1 align="center">☎️ Anonymous Numbers Market Analytics</h1>
 </p>
+
 <p align="center">Telegram bot that disseminates statistical data on the Anonymous Telegram Numbers market from <a href="https://fragment.com">Fragment.com</a></p>
+
+![](numbersupply.png)
 
 ## 📚 Usage
 
