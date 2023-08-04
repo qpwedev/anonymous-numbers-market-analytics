@@ -25,7 +25,7 @@ def records_to_text(records):
     text += ' | '.join(summaries)
 
     # Add footer text, if there's enough space left
-    footer = """Chat 👉🏼 <b>@NumbersSupplyChat</b>"""
+    footer = """Chat 👉🏼 <b>@HoldNumbers</b>"""
 
     # Truncate the main text if necessary to make room for the footer
     if len(text) + len(footer) + 2 > 2048:  # +2 for '\n\n'
