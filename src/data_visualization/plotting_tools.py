@@ -3,7 +3,7 @@ import numpy as np
 from collections import defaultdict
 from models.number_records import SaleNumberRecord
 
-plt.style.use('ggplot')
+plt.style.use('dark_background')
 
 
 def plot_floor(records):
