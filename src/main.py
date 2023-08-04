@@ -26,7 +26,7 @@ async def main():
     counter = 0
 
     while True:
-        floor_items = parse_sale_html(request_floor_page())
+        floor_items = parse_sale_html(request_floor_page())[:250]
         sold_items = parse_sold_html(request_sold_page())
 
         for item in tqdm(floor_items):
