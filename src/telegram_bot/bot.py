@@ -7,7 +7,7 @@ load_dotenv()
 
 # Initialize bot and dispatcher
 bot = Bot(token=os.environ.get('BOT_TOKEN', "Nikolai Durov"))
-CHANNEL_ID = -1001961706671
+CHANNEL_ID = -1001786262339
 
 
 async def send_photo(photo_path, caption):
